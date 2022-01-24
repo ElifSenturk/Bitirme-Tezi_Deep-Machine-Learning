@@ -1,3 +1,5 @@
+"Author: Elif ŞENTÜRK"
+
 import xml.etree.cElementTree as ET
 from xml.dom import minidom
 import os 
