@@ -13,7 +13,6 @@ from tracker import CentroidTracker
 
 
 #model load -faster_rcnn- high performance, fps:0.09-0.11  ;  mobilenet_v2- fast, fps:4.-7.
-# module_handle = "https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1" 
 module_handle = "https://tfhub.dev/google/openimages_v4/ssd/mobilenet_v2/1"
 detector = hub.load(module_handle).signatures['default']
 
